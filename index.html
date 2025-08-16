@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en"
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Nexora — Engineering the Next</title>
+  <meta name="description" content="Nexora builds world‑class software for global teams: discovery, design, full‑stack, cloud, data, security." />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+  <div class="radial"></div><div class="radial2"></div><div class="grain"></div>
+  <div class="progress" id="progress"></div>
+
+  <!-- ===== NAV ===== -->
+  <div class="nav">
+    <div class="container nav__row">
+      <a class="brand" href="#home" aria-label="Nexora home">
+        <span class="logo"></span>
+        <span class="word">Nexora</span>
+      </a>
+      <nav class="nav__links" aria-label="Primary">
+        <a href="#services">Services</a>
+        <a href="#work">Work</a>
+        <a href="#stack">Stack</a>
+        <a href="#pricing">Engage</a>
+        <a href="#contact" class="cta magnet">Let’s Talk</a>
+      </nav>
+      <button id="theme" class="theme" title="Toggle theme">Theme</button>
+    </div>
+  </div>
+
+  <!-- ===== HERO ===== -->
+  <header id="home" class="hero">
+    <!-- parallax layers -->
+    <div class="layer" id="p1"></div>
+    <div class="layer" id="p2"></div>
+    <div class="container hero__wrap grid grid-2">
+      <div>
+        <h1 class="h1 reveal">Engineering the <span style="background:linear-gradient(135deg,var(--brand),var(--brand-3));-webkit-background-clip:text;background-clip:text;color:transparent">Next</span></h1>
+        <p class="lead reveal" style="transition-delay:.06s">Strategy → Design → Code → Cloud. Senior team. Global delivery. Zero fluff.</p>
+        <div class="badges reveal" style="transition-delay:.12s">
+          <span class="badge">Fintech</span><span class="badge">SaaS</span><span class="badge">E‑commerce</span><span class="badge">AI/ML</span><span class="badge">Web3</span><span class="badge">HealthTech</span>
+        </div>
+        <div class="reveal" style="transition-delay:.18s">
+          <a href="#contact" class="btn magnet">Start a Project</a>
+          <span class="badge" style="margin-left:10px">↗ 24h response</span>
+        </div>
+      </div>
+      <aside class="heroCard reveal" style="transition-delay:.12s">
+        <div class="heroGrid">
+          <div class="tile tilt"><strong>Frontend</strong><small>React · Next · TS</small></div>
+          <div class="tile tilt"><strong>Backend</strong><small>Node · Python</small></div>
+          <div class="tile tilt"><strong>Data</strong><small>Postgres · Redis</small></div>
+          <div class="tile tilt"><strong>DevOps</strong><small>Docker · K8s</small></div>
+          <div class="tile tilt"><strong>Security</strong><small>AppSec · Audits</small></div>
+          <div class="tile tilt"><strong>Scale</strong><small>CI/CD · SRE</small></div>
+        </div>
+      </aside>
+    </div>
+  </header>
+
+  <!-- ===== TRUST ===== -->
+  <section class="center">
+    <div class="container reveal">
+      <span class="badge" style="background:linear-gradient(135deg,rgba(122,109,255,.18),rgba(0,212,255,.14));border:1px solid var(--border)">Trusted outcomes for ambitious teams</span>
+      <div class="badges" style="justify-content:center;margin-top:12px">
+        <span class="badge">ISO‑ready</span>
+        <span class="badge">WCAG AA</span>
+        <span class="badge">99.95% uptime</span>
+        <span class="badge">NPS 73</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== SERVICES ===== -->
+  <section id="services">
+    <div class="container">
+      <div class="section__head">
+        <h2 class="section__title">Services</h2>
+        <p class="muted">Discovery → Delivery with measurable SLAs</p>
+      </div>
+      <div class="cards">
+        <article class="card reveal">
+          <h4>Product Discovery</h4>
+          <p>Workshops, UX flows, spikes and sizing to de‑risk delivery before code.</p>
+          <ul class="list">
+            <li><span class="dot"></span>Roadmapping & OKRs</li>
+            <li><span class="dot"></span>Solution Architecture</li>
+            <li><span class="dot"></span>Usability testing</li>
+          </ul>
+        </article>
+        <article class="card reveal" style="transition-delay:.06s">
+          <h4>Design & Frontend</h4>
+          <p>Design systems and accessible, blazing‑fast UI with Next.js & TypeScript.</p>
+          <ul class="list">
+            <li><span class="dot"></span>Design System</li>
+            <li><span class="dot"></span>Performance budget</li>
+            <li><span class="dot"></span>Internationalization</li>
+          </ul>
+        </article>
+        <article class="card reveal" style="transition-delay:.12s">
+          <h4>Backend & DevOps</h4>
+          <p>Cloud‑native services with observability, IaC, CI/CD and robust security.</p>
+          <ul class="list">
+            <li><span class="dot"></span>Microservices & GraphQL</li>
+            <li><span class="dot"></span>PostgreSQL · Redis · Kafka</li>
+            <li><span class="dot"></span>Kubernetes · Terraform</li>
+          </ul>
+        </article>
+        <article class="card reveal" style="transition-delay:.18s">
+          <h4>Data & AI</h4>
+          <p>Pipelines, analytics, and applied AI for search, fraud and personalization.</p>
+          <ul class="list">
+            <li><span class="dot"></span>dbt · Airflow · Lakehouse</li>
+            <li><span class="dot"></span>Feature stores & evals</li>
+            <li><span class="dot"></span>Privacy & governance</li>
+          </ul>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== WORK ===== -->
+  <section id="work">
+    <div class="container">
+      <div class="section__head">
+        <h2 class="section__title">Selected Work</h2>
+        <p class="muted">Snapshot of what we ship</p>
+      </div>
+      <div class="cases">
+        <article class="case reveal">
+          <div class="shot"></div>
+          <div class="case__body">
+            <h4>Global Fintech</h4>
+            <p class="muted">10× performance · Multi‑region rollout · SOC2‑ready</p>
+          </div>
+        </article>
+        <article class="case reveal" style="transition-delay:.06s">
+          <div class="shot"></div>
+          <div class="case__body">
+            <h4>E‑commerce Core</h4>
+            <p class="muted">1M SKUs · AI search · 99.95% uptime</p>
+          </div>
+        </article>
+        <article class="case reveal" style="transition-delay:.12s">
+          <div class="shot"></div>
+          <div class="case__body">
+            <h4>HealthTech Cloud</h4>
+            <p class="muted">HIPAA flows · Edge video · Analytics</p>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== STACK ===== -->
+  <section id="stack">
+    <div class="container">
+      <div class="section__head">
+        <h2 class="section__title">Tech Stack</h2>
+        <p class="muted">Modern choices that scale</p>
+      </div>
+      <div class="chips reveal">
+        <span class="chip">React</span><span class="chip">Next.js</span><span class="chip">TypeScript</span><span class="chip">Tailwind</span>
+        <span class="chip">Node</span><span class="chip">Python</span><span class="chip">NestJS</span><span class="chip">GraphQL</span>
+        <span class="chip">PostgreSQL</span><span class="chip">Redis</span><span class="chip">Kafka</span><span class="chip">Prisma</span>
+        <span class="chip">Docker</span><span class="chip">Kubernetes</span><span class="chip">Terraform</span><span class="chip">GitHub Actions</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== PRICING ===== -->
+  <section id="pricing">
+    <div class="container">
+      <div class="section__head">
+        <h2 class="section__title">Engagement</h2>
+        <p class="muted">Fixed scope, retainers, or advisory</p>
+      </div>
+      <div class="pricing">
+        <div class="price reveal">
+          <h4>Fixed Scope</h4>
+          <div class="big">from $25k</div>
+          <ul class="list">
+            <li><span class="dot"></span>Milestone payments</li>
+            <li><span class="dot"></span>Delivery plan & QA</li>
+            <li><span class="dot"></span>Risk register</li>
+          </ul>
+        </div>
+        <div class="price price--pro reveal" style="transition-delay:.08s">
+          <h4>Dedicated Squad</h4>
+          <div class="big">$18k/mo</div>
+          <ul class="list">
+            <li><span class="dot"></span>Cross‑functional team</li>
+            <li><span class="dot"></span>SLA & roadmap</li>
+            <li><span class="dot"></span>Weekly demos</li>
+          </ul>
+        </div>
+        <div class="price reveal" style="transition-delay:.16s">
+          <h4>Consulting</h4>
+          <div class="big">$150/hr</div>
+          <ul class="list">
+            <li><span class="dot"></span>Architecture & audits</li>
+            <li><span class="dot"></span>Performance & security</li>
+            <li><span class="dot"></span>CTO advisory</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== QUOTES ===== -->
+  <section>
+    <div class="container">
+      <div class="section__head">
+        <h2 class="section__title">What clients say</h2>
+        <p class="muted">Signal over noise</p>
+      </div>
+      <div class="quotes">
+        <figure class="quote reveal"><p>“Nexora shipped in 6 weeks what our previous vendor couldn’t in 6 months.”</p><figcaption class="muted">VP Engineering · Fintech</figcaption></figure>
+        <figure class="quote reveal" style="transition-delay:.06s"><p>“The cleanest codebase we’ve audited this year.”</p><figcaption class="muted">CTO · HealthTech</figcaption></figure>
+        <figure class="quote reveal" style="transition-delay:.12s"><p>“Senior team, zero hand‑holding. Just results.”</p><figcaption class="muted">Founder · SaaS</figcaption></figure>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== TEAM ===== -->
+  <section id="team">
+    <div class="container">
+      <div class="section__head">
+        <h2 class="section__title">Core Team</h2>
+        <p class="muted">10 senior operators</p>
+      </div>
+      <div class="team">
+        <div class="card reveal tilt"><div class="avatar"></div><h4>Founder / CTO</h4><p class="muted">Architecture · Sales · Strategy</p></div>
+        <div class="card reveal tilt" style="transition-delay:.04s"><div class="avatar"></div><h4>PM / Lead</h4><p class="muted">Delivery · Roadmap · Quality</p></div>
+        <div class="card reveal tilt" style="transition-delay:.08s"><div class="avatar"></div><h4>Full‑Stack</h4><p class="muted">Next.js · Node.js</p></div>
+        <div class="card reveal tilt" style="transition-delay:.12s"><div class="avatar"></div><h4>Frontend</h4><p class="muted">React · TS · UI</p></div>
+        <div class="card reveal tilt" style="transition-delay:.16s"><div class="avatar"></div><h4>Backend</h4><p class="muted">APIs · Services</p></div>
+        <div class="card reveal tilt" style="transition-delay:.20s"><div class="avatar"></div><h4>DevOps</h4><p class="muted">Cloud · CI/CD</p></div>
+        <div class="card reveal tilt" style="transition-delay:.24s"><div class="avatar"></div><h4>Data</h4><p class="muted">DB · Analytics</p></div>
+        <div class="card reveal tilt" style="transition-delay:.28s"><div class="avatar"></div><h4>Security</h4><p class="muted">AppSec · Audits</p></div>
+        <div class="card reveal tilt" style="transition-delay:.32s"><div class="avatar"></div><h4>QA</h4><p class="muted">Automation</p></div>
+        <div class="card reveal tilt" style="transition-delay:.36s"><div class="avatar"></div><h4>Designer</h4><p class="muted">UX · UI</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FAQ ===== -->
+  <section>
+    <div class="container">
+      <div class="section__head">
+        <h2 class="section__title">FAQ</h2>
+        <p class="muted">Straight answers</p>
+      </div>
+      <div class="cards">
+        <details class="card reveal"><summary><strong>How fast can you start?</strong></summary><p class="muted">Discovery can start within 3–5 business days. Delivery team within 2 weeks.</p></details>
+        <details class="card reveal" style="transition-delay:.06s"><summary><strong>How do you price?</strong></summary><p class="muted">Fixed‑scope projects or monthly retainers. Transparent milestones and burn‑up charts.</p></details>
+        <details class="card reveal" style="transition-delay:.12s"><summary><strong>Will you work under NDA?</strong></summary><p class="muted">Yes. We routinely work under NDA and with SOC2/ISO controls.</p></details>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CONTACT ===== -->
+  <section id="contact">
+    <div class="container">
+      <div class="section__head">
+        <h2 class="section__title">Let’s build</h2>
+        <p class="muted">Tell us about your initiative — 24h response</p>
+      </div>
+      <form class="form" onsubmit="event.preventDefault(); window.location.href='mailto:hello@nexora.dev?subject=Nexora%20Project%20Request&body=' + encodeURIComponent(document.getElementById('msg').value)">
+        <div class="row">
+          <label>
+            <span class="muted">Your name</span>
+            <input required placeholder="John Carter" />
+          </label>
+          <label>
+            <span class="muted">Work email</span>
+            <input type="email" required placeholder="you@company.com" />
+          </label>
+        </div>
+        <div class="row">
+          <label>
+            <span class="muted">Company</span>
+            <input placeholder="Acme Inc." />
+          </label>
+          <label>
+            <span class="muted">Budget (USD)</span>
+            <select>
+              <option>— Select —</option>
+              <option>$10k–$25k</option>
+              <option>$25k–$50k</option>
+              <option>$50k–$100k</option>
+              <option>$100k+</option>
+            </select>
+          </label>
+        </div>
+        <label>
+          <span class="muted">What are you building?</span>
+          <textarea id="msg" placeholder="Briefly describe the problem, users, constraints, and goals."></textarea>
+        </label>
+        <div style="display:flex;align-items:center;justify-content:space-between;margin-top:12px">
+          <span class="badge">NDA‑friendly</span>
+          <button class="btn magnet" type="submit">Send request →</button>
+        </div>
+      </form>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container" style="display:flex;align-items:center;justify-content:space-between;gap:14px;flex-wrap:wrap">
+      <div class="brand"><span class="logo"></span><span class="word">Nexora</span></div>
+      <div>© <span id="y"></span> Nexora — All rights reserved.</div>
+    </div>
+  </footer>
+
+
+  
+  <script src="./app.js"></script>
+
+</body>
+</html> 
